@@ -1,0 +1,18 @@
+{{#block "spritesheet"}}
+.sprite {
+  background-image: url({{spritesheet.escaped_image}});
+  background-size: {{spritesheet.px.width}} {{spritesheet.px.height}};
+  background-repeat: no-repeat;
+  display: block;
+}
+{{/block}}
+@mixin sprite($filename) {
+  {{#sprites}}
+  @if $filename == {{name}} {
+    @extend .sprite;
+    background-position: {{px.offset_x}} {{px.offset_y}};
+    height: {{px.height}};
+    width: {{px.width}};
+  }
+  {{/sprites}}
+}

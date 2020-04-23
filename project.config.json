@@ -1,0 +1,171 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"miniprogramRoot": "dist/wx/",
+	"compileType": "miniprogram",
+	"appid": "",
+	"projectname": "mp-cmcc",
+	"libVersion": "2.8.3",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 18,
+			"list": [
+				{
+					"id": 0,
+					"name": "我的账单",
+					"pathName": "pages/bills/bills",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "业务办理",
+					"pathName": "pages/businessList/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "我的账单",
+					"pathName": "pages/bill/bill",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "已订业务",
+					"pathName": "pages/haveBusiness/haveBusiness",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "业务办理",
+					"pathName": "pages/packageBusinessList/packageBusinessList",
+					"query": ""
+				},
+				{
+					"id": 5,
+					"name": "充值",
+					"pathName": "pages/recharge/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "搜索",
+					"pathName": "pages/search/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "流量钱包",
+					"pathName": "pages/flowWallet/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "支付",
+					"pathName": "pages/pay/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "分享",
+					"pathName": "pages/sharePage/main",
+					"query": "title=我的分享&url=pages/index/index&bgImg=https://app.10086.cn/leadeon-wx-rs/images/share/jilin_2.jpg&posterImg=https://app.10086.cn/leadeon-wx-rs/images/share/jilin_1.jpg&cardImg=https://app.10086.cn/leadeon-wx-rs/images/share/jilin_3.jpg",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/web-view/web-view",
+					"pathName": "pages/web-view/web-view",
+					"query": "url= https://y.app.10086.cn/YXMB/v3/oss/template/Garbageclassification/index.html?proid=a1bb10e7eca84cc4&checked=true&islogin=false&channel=6906&uid=d107d97159cc483aa954bf9b8d65808e&openId=omXXs0DRzVuGxI3BxuPCKC-qU7Y0&nickName=%F0%9F%A5%9D%E8%8B%97%E5%84%BF&avatarUrl=https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJOXC8PCytAFBF4icSgliaic5k0opibq17ribydaq7JnXdS1JUW5vL0qLicvGalMLgEurpFNLcA7slv0Ykw/132",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/web-view/web-view",
+					"pathName": "pages/web-view/web-view",
+					"query": "url= https%3A%2F%2Fflow.clientaccess.10086.cn%2Fflowwallet-test%2Fwx_robRedPack.html%3Fid%3DAF967F7E41014F0A99B7CBECAC15E21D%26key%3D9o7SWGB5AF967F7E41014F0A99B7CBECAC15E21D%26accountId%3D113307623620191028105325%26redPacketTheme%3D0",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/web-view/web-view",
+					"pathName": "pages/web-view/web-view",
+					"query": "url=https://app.10086.cn/7aBD75",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/web-view/web-view",
+					"pathName": "pages/web-view/web-view",
+					"query": "url= https://flow.clientaccess.10086.cn/flowwallet-test/wx_robRedPack.html?id=2EE7E15A09B946029CEB5F48A90B7196&key=EsKUUJfH2EE7E15A09B946029CEB5F48A90B7196&accountId=113307623620191025185416&redPacketTheme=0&uid=74b38e94f7f1462da25bfc7d29f19ccf",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/web-view/web-view",
+					"pathName": "pages/web-view/web-view",
+					"query": "url=https://app.10086.cn/D435aa",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/login/login",
+					"pathName": "pages/login/login",
+					"query": "url= https://flow.clientaccess.10086.cn/flowwallet-test/wx_redPacket.html?accountId=113307623620191024173955",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/web-view/web-view",
+					"pathName": "pages/web-view/web-view",
+					"query": "url= https://flow.clientaccess.10086.cn/flowwallet-test/wx_redPacket.html?accountId=113307623620191024173955",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/web-view/web-view",
+					"pathName": "pages/web-view/web-view",
+					"query": "url=https://flow.clientaccess.10086.cn/flowwallet-test/wx_redPacket.html?accountId=113307623620191024173955",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/web-view/web-view",
+					"pathName": "pages/web-view/web-view",
+					"query": "url=https://flow.clientaccess.10086.cn/flowwallet-test/wx_redPacket.html?accountId=113307623620191024173955",
+					"scene": null
+				}
+			]
+		}
+	}
+}
